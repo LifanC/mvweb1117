@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import model.ContextTemperature;
 
 @Controller
-@RequestMapping("/")
 public class HelloWorldController {
 
 	@RequestMapping(method = RequestMethod.GET)
